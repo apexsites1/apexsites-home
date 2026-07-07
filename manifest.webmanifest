@@ -1,0 +1,12 @@
+{
+  "name": "ApexSites",
+  "short_name": "ApexSites",
+  "description": "AI website builder and agency platform to generate, sell, host, export, and manage client websites.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0F0A",
+  "theme_color": "#0B0F0A",
+  "icons": [
+    { "src": "/assets/apexsites-mark.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

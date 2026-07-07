@@ -1,0 +1,13 @@
+# robots.txt — ApexSites.ai
+User-agent: *
+Allow: /
+
+# Keep the authenticated app out of the index.
+Disallow: /app/
+Disallow: /login
+Disallow: /signup
+Disallow: /onboarding
+Disallow: /dashboard
+
+# AI answer-engine reference file — see /llms.txt
+Sitemap: https://apexsites.ai/sitemap.xml

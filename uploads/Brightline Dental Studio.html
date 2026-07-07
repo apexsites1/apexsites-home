@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="/assets/js/apex.js" defer></script>
+</head>
+<body>
+<helmet data-dc-atomics>
+<template id="__bundler_thumbnail" data-bg-color="#28a876">
+  <svg viewBox="0 0 240 160" xmlns="http://www.w3.org/2000/svg">
+    <rect width="240" height="160" fill="#28a876"/>
+    <circle cx="60" cy="50" r="20" fill="#f5f5f0" opacity="0.9"/>
+    <circle cx="180" cy="50" r="20" fill="#f5f5f0" opacity="0.9"/>
+    <path d="M 60 90 Q 120 130 180 90" stroke="#f5f5f0" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <rect x="45" y="110" width="150" height="30" fill="#f5f5f0" opacity="0.7" rx="4"/>
+    <text x="120" y="140" font-family="serif" font-size="12" fill="#28a876" text-anchor="middle" font-weight="600">Brightline</text>
+  </svg>
+</template>
+<meta name="ext-resource-dependency" content="uploads/ChatGPT Image Jul 1, 2026, 09_08_21 PM.png" data-resource-id="heroImg" />
+<meta name="ext-resource-dependency" content="uploads/ChatGPT Image Jul 2, 2026, 03_27_46 PM.png" data-resource-id="philosophyImg" />
+<meta name="ext-resource-dependency" content="uploads/ChatGPT Image Jul 2, 2026, 03_35_56 PM.png" data-resource-id="studio1" />
+<meta name="ext-resource-dependency" content="uploads/ChatGPT Image Jul 2, 2026, 03_36_14 PM (2).png" data-resource-id="studio2" />
+<meta name="ext-resource-dependency" content="uploads/ChatGPT Image Jul 2, 2026, 03_36_14 PM (3).png" data-resource-id="studio3" />
+<meta name="ext-resource-dependency" content="uploads/ChatGPT Image Jul 2, 2026, 03_36_15 PM (4).png" data-resource-id="studio4" />
+<meta name="ext-resource-dependency" content="uploads/ChatGPT Image Jul 2, 2026, 03_43_45 PM (1).png" data-resource-id="drElena" />
+<meta name="ext-resource-dependency" content="uploads/ChatGPT Image Jul 2, 2026, 03_43_46 PM (2).png" data-resource-id="drJames" />
+<meta name="ext-resource-dependency" content="uploads/ChatGPT Image Jul 2, 2026, 03_52_53 PM.png" data-resource-id="veneersBefore" />
+<meta name="ext-resource-dependency" content="uploads/ChatGPT Image Jul 2, 2026, 03_52_44 PM.png" data-resource-id="veneersAfter" />
+<meta name="ext-resource-dependency" content="uploads/ChatGPT Image Jul 2, 2026, 03_56_34 PM.png" data-resource-id="invisalignBefore" />
+<meta name="ext-resource-dependency" content="uploads/ChatGPT Image Jul 2, 2026, 03_56_41 PM.png" data-resource-id="invisalignAfter" />
+<meta name="ext-resource-dependency" content="uploads/ChatGPT Image Jul 2, 2026, 04_02_08 PM.png" data-resource-id="whiteningBefore" />
+<meta name="ext-resource-dependency" content="uploads/ChatGPT Image Jul 2, 2026, 04_02_21 PM.png" data-resource-id="whiteningAfter" />
+<meta name="ext-resource-dependency" content="uploads/ChatGPT Image Jul 2, 2026, 03_47_48 PM.png" data-resource-id="mapImg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  @keyframes bl-fade-up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes bl-fade { from { opacity: 0; } to { opacity: 1; } }
+</style>
+</helmet>
+
+<div style="font-family:'Work Sans',sans-serif;background:oklch(0.97 0.015 75);color:oklch(0.20 0.02 75);width:100%;overflow-x:hidden;line-height:1.5;">
+
+  <!-- NAV -->
+  <div style="position:sticky;top:0;z-index:100;background:oklch(0.97 0.015 75 / 0.92);backdrop-filter:blur(10px);border-bottom:1px solid oklch(0.88 0.02 75);">
+    <div style="max-width:1320px;margin:0 auto;padding:18px 6vw;display:flex;align-items:center;justify-content:space-between;gap:24px;">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <div style="width:34px;height:34px;border:1.5px solid oklch(0.28 0.05 155);transform:rotate(45deg);flex:none;position:relative;">
+          <div style="position:absolute;inset:6px;border:1px solid oklch(0.72 0.09 40);"></div>
+        </div>
+        <div>
+          <div style="font-family:'Playfair Display',serif;font-size:21px;font-weight:600;letter-spacing:0.01em;line-height:1;">Brightline</div>
+          <div style="font-size:9.5px;letter-spacing:0.22em;color:oklch(0.45 0.02 75);margin-top:3px;">DENTAL STUDIO</div>
+        </div>
+      </div>
+
+      
+        <div style="display:flex;align-items:center;gap:36px;">
+          <a href="#services" style="font-size:14.5px;color:oklch(0.20 0.02 75);text-decoration:none;">Services</a>
+          <a href="#studio" style="font-size:14.5px;color:oklch(0.20 0.02 75);text-decoration:none;">Studio</a>
+          <a href="#team" style="font-size:14.5px;color:oklch(0.20 0.02 75);text-decoration:none;">About</a>
+          <a href="#gallery" style="font-size:14.5px;color:oklch(0.20 0.02 75);text-decoration:none;">Smile Gallery</a>
+          <a href="#reviews" style="font-size:14.5px;color:oklch(0.20 0.02 75);text-decoration:none;">Reviews</a>
+          <a href="#visit" style="font-size:14.5px;color:oklch(0.20 0.02 75);text-decoration:none;">Contact</a>
+        </div>
+        <div style="display:flex;align-items:center;gap:20px;">
+          <a href="tel:+15553492100" style="font-size:14.5px;color:oklch(0.20 0.02 75);text-decoration:none;font-weight:500;">(555) 349-2100</a>
+          <a href="#visit" style="background:oklch(0.28 0.05 155);color:oklch(0.97 0.015 75);padding:12px 26px;font-size:13px;letter-spacing:0.04em;text-decoration:none;" style-hover="background:oklch(0.20 0.045 155);">Book a Visit</a>
+        </div>
+      
+
+      
+    </div>
+
+    
+  </div>
+
+  <!-- HERO -->
+  <div style="max-width:1320px;margin:0 auto;padding:72px 6vw 56px;display:flex;gap:64px;align-items:center;flex-wrap:wrap;">
+    <div style="flex:1 1 460px;min-width:320px;animation:bl-fade-up 0.8s ease both;">
+      <div style="font-size:12px;letter-spacing:0.24em;color:oklch(0.45 0.02 75);margin-bottom:22px;">BRIGHTLINE DENTAL STUDIO</div>
+      <div style="font-family:'Playfair Display',serif;font-size:clamp(38px,5vw,64px);font-weight:600;line-height:1.06;letter-spacing:-0.01em;margin-bottom:26px;">Dentistry Worth Smiling About.</div>
+      <div style="font-size:17.5px;color:oklch(0.40 0.02 75);max-width:480px;margin-bottom:38px;line-height:1.65;">A private dental studio designed around comfort, craftsmanship, and care — where every visit feels less like an appointment and more like a moment to yourself.</div>
+      <div style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:40px;">
+        <a href="#visit" style="background:oklch(0.28 0.05 155);color:oklch(0.97 0.015 75);padding:16px 32px;font-size:14px;letter-spacing:0.04em;text-decoration:none;" style-hover="background:oklch(0.20 0.045 155);">Book a Visit</a>
+        <a href="tel:+15553492100" style="border:1px solid oklch(0.20 0.02 75);color:oklch(0.20 0.02 75);padding:16px 32px;font-size:14px;letter-spacing:0.04em;text-decoration:none;" style-hover="background:oklch(0.20 0.02 75);color:oklch(0.97 0.015 75);">Call (555) 349-2100</a>
+      </div>
+      <div style="display:flex;gap:28px;flex-wrap:wrap;padding-top:28px;border-top:1px solid oklch(0.88 0.02 75);">
+        <div style="font-size:13px;color:oklch(0.40 0.02 75);"><span style="color:oklch(0.72 0.09 40);">★★★★★</span>&nbsp; 4.9 rating · 2,400+ reviews</div>
+        <div style="font-size:13px;color:oklch(0.40 0.02 75);">Invisalign Diamond Provider</div>
+        <div style="font-size:13px;color:oklch(0.40 0.02 75);">Same-week appointments</div>
+      </div>
+    </div>
+    <img src="/uploads/ChatGPT Image Jul 1, 2026, 09_08_21 PM.png" data-resource-id="heroImg" style="flex:1 1 420px;min-width:300px;height:560px;object-fit:cover;border:1px solid oklch(0.85 0.02 75);" alt="Patient smiling in dental chair" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden';this.style.background='#12180F';">
+  </div>
+
+  <!-- STATS BAND -->
+  <div style="background:oklch(0.28 0.05 155);color:oklch(0.97 0.015 75);">
+    <div style="max-width:1320px;margin:0 auto;padding:56px 6vw;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:32px;text-align:center;">
+      <div>
+        <div style="font-family:'Playfair Display',serif;font-size:40px;font-weight:600;">18</div>
+        <div style="font-size:13px;letter-spacing:0.08em;opacity:0.75;margin-top:8px;">YEARS IN PRACTICE</div>
+      </div>
+      <div>
+        <div style="font-family:'Playfair Display',serif;font-size:40px;font-weight:600;">12,000+</div>
+        <div style="font-size:13px;letter-spacing:0.08em;opacity:0.75;margin-top:8px;">SMILES TRANSFORMED</div>
+      </div>
+      <div>
+        <div style="font-family:'Playfair Display',serif;font-size:40px;font-weight:600;">4.9★</div>
+        <div style="font-size:13px;letter-spacing:0.08em;opacity:0.75;margin-top:8px;">AVERAGE PATIENT RATING</div>
+      </div>
+      <div>
+        <div style="font-family:'Playfair Display',serif;font-size:40px;font-weight:600;">98%</div>
+        <div style="font-size:13px;letter-spacing:0.08em;opacity:0.75;margin-top:8px;">WOULD REFER A FRIEND</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHILOSOPHY -->
+  <div style="max-width:1320px;margin:0 auto;padding:120px 6vw;display:flex;gap:72px;align-items:center;flex-wrap:wrap-reverse;">
+    <img src="/uploads/ChatGPT Image Jul 2, 2026, 03_27_46 PM.png" data-resource-id="philosophyImg" style="flex:1 1 420px;min-width:300px;height:460px;object-fit:cover;border:1px solid oklch(0.85 0.02 75);" alt="Dr. Marchetti consulting with patient" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden';this.style.background='#12180F';">
+    <div style="flex:1 1 460px;min-width:320px;">
+      <div style="font-size:12px;letter-spacing:0.24em;color:oklch(0.45 0.02 75);margin-bottom:22px;">OUR APPROACH</div>
+      <div style="font-family:'Playfair Display',serif;font-size:clamp(30px,3.6vw,42px);font-weight:600;line-height:1.15;margin-bottom:26px;">Care, Considered.</div>
+      <div style="font-size:16.5px;color:oklch(0.40 0.02 75);line-height:1.75;margin-bottom:20px;">Brightline was founded on a simple idea: exceptional dentistry shouldn't feel clinical. From the moment you arrive — warm textures, quiet rooms, a team that remembers your name — every detail is considered so you can simply relax.</div>
+      <div style="font-size:16.5px;color:oklch(0.40 0.02 75);line-height:1.75;margin-bottom:32px;">We pair advanced diagnostic technology and meticulous technique with an unhurried, personal touch, so every plan is built around you — not the clock.</div>
+      <div style="border-left:2px solid oklch(0.72 0.09 40);padding-left:24px;font-family:'Playfair Display',serif;font-style:italic;font-size:19px;color:oklch(0.28 0.02 75);">"We don't just treat teeth. We take care of people."
+        <div style="font-family:'Work Sans',sans-serif;font-style:normal;font-size:13px;color:oklch(0.45 0.02 75);margin-top:10px;">— Dr. Elena Marchetti, Founder</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <div id="services" style="background:oklch(0.995 0.008 75);border-top:1px solid oklch(0.88 0.02 75);border-bottom:1px solid oklch(0.88 0.02 75);">
+    <div style="max-width:1320px;margin:0 auto;padding:120px 6vw;">
+      <div style="text-align:center;max-width:640px;margin:0 auto 64px;">
+        <div style="font-size:12px;letter-spacing:0.24em;color:oklch(0.45 0.02 75);margin-bottom:22px;">SERVICES</div>
+        <div style="font-family:'Playfair Display',serif;font-size:clamp(30px,3.6vw,42px);font-weight:600;line-height:1.15;">Thoughtful Care for Every Smile</div>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1px;background:oklch(0.88 0.02 75);border:1px solid oklch(0.88 0.02 75);">
+        
+          <div style="background:oklch(0.995 0.008 75);padding:44px 36px;">
+            <div style="width:46px;height:46px;border-radius:50%;border:1px solid oklch(0.28 0.05 155);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:17px;color:oklch(0.28 0.05 155);margin-bottom:26px;">G</div>
+            <div style="font-family:'Playfair Display',serif;font-size:21px;font-weight:600;margin-bottom:12px;">General & Preventive Care</div>
+            <div style="font-size:14.5px;color:oklch(0.42 0.02 75);line-height:1.65;">Routine exams, cleanings, and proactive care to keep your smile healthy for the long run.</div>
+          </div>
+        
+          <div style="background:oklch(0.995 0.008 75);padding:44px 36px;">
+            <div style="width:46px;height:46px;border-radius:50%;border:1px solid oklch(0.28 0.05 155);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:17px;color:oklch(0.28 0.05 155);margin-bottom:26px;">C</div>
+            <div style="font-family:'Playfair Display',serif;font-size:21px;font-weight:600;margin-bottom:12px;">Cosmetic Dentistry</div>
+            <div style="font-size:14.5px;color:oklch(0.42 0.02 75);line-height:1.65;">Veneers, bonding, and smile design crafted to look natural and last.</div>
+          </div>
+        
+          <div style="background:oklch(0.995 0.008 75);padding:44px 36px;">
+            <div style="width:46px;height:46px;border-radius:50%;border:1px solid oklch(0.28 0.05 155);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:17px;color:oklch(0.28 0.05 155);margin-bottom:26px;">I</div>
+            <div style="font-family:'Playfair Display',serif;font-size:21px;font-weight:600;margin-bottom:12px;">Invisalign & Clear Aligners</div>
+            <div style="font-size:14.5px;color:oklch(0.42 0.02 75);line-height:1.65;">Straighten your smile discreetly with a plan tailored to your life.</div>
+          </div>
+        
+          <div style="background:oklch(0.995 0.008 75);padding:44px 36px;">
+            <div style="width:46px;height:46px;border-radius:50%;border:1px solid oklch(0.28 0.05 155);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:17px;color:oklch(0.28 0.05 155);margin-bottom:26px;">D</div>
+            <div style="font-family:'Playfair Display',serif;font-size:21px;font-weight:600;margin-bottom:12px;">Dental Implants</div>
+            <div style="font-size:14.5px;color:oklch(0.42 0.02 75);line-height:1.65;">Permanent, natural-feeling replacements for missing teeth.</div>
+          </div>
+        
+          <div style="background:oklch(0.995 0.008 75);padding:44px 36px;">
+            <div style="width:46px;height:46px;border-radius:50%;border:1px solid oklch(0.28 0.05 155);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:17px;color:oklch(0.28 0.05 155);margin-bottom:26px;">W</div>
+            <div style="font-family:'Playfair Display',serif;font-size:21px;font-weight:600;margin-bottom:12px;">Professional Whitening</div>
+            <div style="font-size:14.5px;color:oklch(0.42 0.02 75);line-height:1.65;">Brighten your smile several shades in a single visit.</div>
+          </div>
+        
+          <div style="background:oklch(0.995 0.008 75);padding:44px 36px;">
+            <div style="width:46px;height:46px;border-radius:50%;border:1px solid oklch(0.28 0.05 155);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:17px;color:oklch(0.28 0.05 155);margin-bottom:26px;">E</div>
+            <div style="font-family:'Playfair Display',serif;font-size:21px;font-weight:600;margin-bottom:12px;">Emergency Care</div>
+            <div style="font-size:14.5px;color:oklch(0.42 0.02 75);line-height:1.65;">Same-day relief when you need it most, no matter the hour.</div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- STUDIO -->
+  <div id="studio" style="max-width:1320px;margin:0 auto;padding:120px 6vw;">
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap;margin-bottom:56px;">
+      <div style="max-width:560px;">
+        <div style="font-size:12px;letter-spacing:0.24em;color:oklch(0.45 0.02 75);margin-bottom:22px;">THE STUDIO</div>
+        <div style="font-family:'Playfair Display',serif;font-size:clamp(30px,3.6vw,42px);font-weight:600;line-height:1.15;">A Space Designed to Put You at Ease.</div>
+      </div>
+      <div style="font-size:15.5px;color:oklch(0.42 0.02 75);max-width:380px;line-height:1.7;">Natural light, private suites, and quiet corners — every inch of Brightline was built to soften the edges of a dental visit.</div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;">
+      
+        <img src="/uploads/ChatGPT Image Jul 2, 2026, 03_35_56 PM.png" style="height:320px;object-fit:cover;border:1px solid oklch(0.85 0.02 75);" alt="Reception Lounge" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden';this.style.background='#12180F';">
+      
+        <img src="/uploads/ChatGPT Image Jul 2, 2026, 03_36_14 PM (2).png" style="height:320px;object-fit:cover;border:1px solid oklch(0.85 0.02 75);" alt="Private Treatment Suite" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden';this.style.background='#12180F';">
+      
+        <img src="/uploads/ChatGPT Image Jul 2, 2026, 03_36_14 PM (3).png" style="height:320px;object-fit:cover;border:1px solid oklch(0.85 0.02 75);" alt="Consultation Room" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden';this.style.background='#12180F';">
+      
+        <img src="/uploads/ChatGPT Image Jul 2, 2026, 03_36_15 PM (4).png" style="height:320px;object-fit:cover;border:1px solid oklch(0.85 0.02 75);" alt="Sterilization & Technology" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden';this.style.background='#12180F';">
+      
+    </div>
+  </div>
+
+  <!-- TEAM -->
+  <div id="team" style="background:oklch(0.995 0.008 75);border-top:1px solid oklch(0.88 0.02 75);border-bottom:1px solid oklch(0.88 0.02 75);">
+    <div style="max-width:1320px;margin:0 auto;padding:120px 6vw;">
+      <div style="text-align:center;max-width:640px;margin:0 auto 64px;">
+        <div style="font-size:12px;letter-spacing:0.24em;color:oklch(0.45 0.02 75);margin-bottom:22px;">MEET YOUR DENTISTS</div>
+        <div style="font-family:'Playfair Display',serif;font-size:clamp(30px,3.6vw,42px);font-weight:600;line-height:1.15;">Led by Experience. Guided by Warmth.</div>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:48px;">
+        
+          <div style="display:flex;gap:28px;flex-wrap:wrap;">
+            
+              <img src="/uploads/ChatGPT Image Jul 2, 2026, 03_43_45 PM (1).png" style="width:180px;height:220px;flex:none;object-fit:cover;border:1px solid oklch(0.85 0.02 75);" alt="Dr. Elena Marchetti, DDS" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden';this.style.background='#12180F';">
+            
+            
+            <div style="flex:1 1 160px;min-width:180px;">
+              <div style="font-family:'Playfair Display',serif;font-size:22px;font-weight:600;margin-bottom:4px;">Dr. Elena Marchetti, DDS</div>
+              <div style="font-size:13px;letter-spacing:0.06em;color:oklch(0.72 0.09 40);margin-bottom:16px;">FOUNDER & LEAD DENTIST</div>
+              <div style="font-size:14.5px;color:oklch(0.42 0.02 75);line-height:1.7;">18 years perfecting the art of cosmetic and restorative dentistry. A Diamond Invisalign provider known for gentle, detail-oriented care.</div>
+            </div>
+          </div>
+        
+          <div style="display:flex;gap:28px;flex-wrap:wrap;">
+            
+              <img src="/uploads/ChatGPT Image Jul 2, 2026, 03_43_46 PM (2).png" style="width:180px;height:220px;flex:none;object-fit:cover;border:1px solid oklch(0.85 0.02 75);" alt="Dr. James Okafor, DDS" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden';this.style.background='#12180F';">
+            
+            
+            <div style="flex:1 1 160px;min-width:180px;">
+              <div style="font-family:'Playfair Display',serif;font-size:22px;font-weight:600;margin-bottom:4px;">Dr. James Okafor, DDS</div>
+              <div style="font-size:13px;letter-spacing:0.06em;color:oklch(0.72 0.09 40);margin-bottom:16px;">ASSOCIATE DENTIST</div>
+              <div style="font-size:14.5px;color:oklch(0.42 0.02 75);line-height:1.7;">Brings a calm, reassuring approach to general and family dentistry, with a special focus on patients who feel anxious about the dentist.</div>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- SMILE GALLERY -->
+  <div id="gallery" style="max-width:1320px;margin:0 auto;padding:120px 6vw;">
+    <div style="text-align:center;max-width:640px;margin:0 auto 64px;">
+      <div style="font-size:12px;letter-spacing:0.24em;color:oklch(0.45 0.02 75);margin-bottom:22px;">SMILE GALLERY</div>
+      <div style="font-family:'Playfair Display',serif;font-size:clamp(30px,3.6vw,42px);font-weight:600;line-height:1.15;">Real Results, Real Confidence.</div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:36px;">
+      
+        <div>
+          <div style="display:flex;gap:2px;">
+            
+              <img src="/uploads/ChatGPT Image Jul 2, 2026, 03_52_53 PM.png" style="flex:1;height:200px;object-fit:cover;border:1px solid oklch(0.85 0.02 75);" alt="Before" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden';this.style.background='#12180F';">
+            
+            
+            
+              <img src="/uploads/ChatGPT Image Jul 2, 2026, 03_52_44 PM.png" style="flex:1;height:200px;object-fit:cover;border:1px solid oklch(0.85 0.02 75);" alt="After" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden';this.style.background='#12180F';">
+            
+            
+          </div>
+          <div style="margin-top:16px;font-family:'Playfair Display',serif;font-size:17px;">Porcelain Veneers</div>
+          <div style="font-size:13px;color:oklch(0.45 0.02 75);margin-top:4px;">6 visits</div>
+        </div>
+      
+        <div>
+          <div style="display:flex;gap:2px;">
+            
+              <img src="/uploads/ChatGPT Image Jul 2, 2026, 03_56_34 PM.png" style="flex:1;height:200px;object-fit:cover;border:1px solid oklch(0.85 0.02 75);" alt="Before" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden';this.style.background='#12180F';">
+            
+            
+            
+              <img src="/uploads/ChatGPT Image Jul 2, 2026, 03_56_41 PM.png" style="flex:1;height:200px;object-fit:cover;border:1px solid oklch(0.85 0.02 75);" alt="After" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden';this.style.background='#12180F';">
+            
+            
+          </div>
+          <div style="margin-top:16px;font-family:'Playfair Display',serif;font-size:17px;">Invisalign</div>
+          <div style="font-size:13px;color:oklch(0.45 0.02 75);margin-top:4px;">11 months</div>
+        </div>
+      
+        <div>
+          <div style="display:flex;gap:2px;">
+            
+              <img src="/uploads/ChatGPT Image Jul 2, 2026, 04_02_08 PM.png" style="flex:1;height:200px;object-fit:cover;border:1px solid oklch(0.85 0.02 75);" alt="Before" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden';this.style.background='#12180F';">
+            
+            
+            
+              <img src="/uploads/ChatGPT Image Jul 2, 2026, 04_02_21 PM.png" style="flex:1;height:200px;object-fit:cover;border:1px solid oklch(0.85 0.02 75);" alt="After" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden';this.style.background='#12180F';">
+            
+            
+          </div>
+          <div style="margin-top:16px;font-family:'Playfair Display',serif;font-size:17px;">Whitening + Bonding</div>
+          <div style="font-size:13px;color:oklch(0.45 0.02 75);margin-top:4px;">2 visits</div>
+        </div>
+      
+    </div>
+    <div style="text-align:center;font-size:12.5px;color:oklch(0.5 0.02 75);margin-top:48px;">Individual results vary. Photos shown with patient consent.</div>
+  </div>
+
+  <!-- TESTIMONIALS -->
+  <div id="reviews" style="background:oklch(0.28 0.05 155);color:oklch(0.97 0.015 75);">
+    <div style="max-width:900px;margin:0 auto;padding:120px 6vw;text-align:center;">
+      <div style="font-size:12px;letter-spacing:0.24em;opacity:0.7;margin-bottom:22px;">PATIENT STORIES</div>
+      <div style="font-family:'Playfair Display',serif;font-style:italic;font-size:clamp(22px,3vw,30px);line-height:1.5;min-height:150px;">"From the second I walked in, I felt like I was somewhere special — not a dental office. The care Dr. Marchetti took with my veneers was incredible."</div>
+      <div style="font-size:14.5px;opacity:0.8;margin-top:28px;">Sarah T. · Veneers</div>
+      <div style="display:flex;justify-content:center;gap:28px;align-items:center;margin-top:44px;">
+        <button style="background:none;border:1px solid oklch(0.97 0.015 75 / 0.4);color:oklch(0.97 0.015 75);width:42px;height:42px;border-radius:50%;cursor:pointer;font-size:16px;" style-hover="background:oklch(0.97 0.015 75 / 0.12);">←</button>
+        <div style="display:flex;gap:10px;">
+          
+            <button data-filter="" style="width:8px;height:8px;border-radius:50%;border:none;background:oklch(0.97 0.015 75 / 0.35);cursor:pointer;padding:0;"></button>
+          
+            <button data-filter="" style="width:8px;height:8px;border-radius:50%;border:none;background:oklch(0.97 0.015 75 / 0.35);cursor:pointer;padding:0;"></button>
+          
+            <button data-filter="" style="width:8px;height:8px;border-radius:50%;border:none;background:oklch(0.97 0.015 75 / 0.35);cursor:pointer;padding:0;"></button>
+          
+            <button data-filter="" style="width:8px;height:8px;border-radius:50%;border:none;background:oklch(0.97 0.015 75 / 0.35);cursor:pointer;padding:0;"></button>
+          
+        </div>
+        <button style="background:none;border:1px solid oklch(0.97 0.015 75 / 0.4);color:oklch(0.97 0.015 75);width:42px;height:42px;border-radius:50%;cursor:pointer;font-size:16px;" style-hover="background:oklch(0.97 0.015 75 / 0.12);">→</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEW PATIENTS / FAQ -->
+  <div style="max-width:1320px;margin:0 auto;padding:120px 6vw;display:flex;gap:72px;flex-wrap:wrap;">
+    <div style="flex:1 1 340px;min-width:280px;">
+      <div style="font-size:12px;letter-spacing:0.24em;color:oklch(0.45 0.02 75);margin-bottom:22px;">NEW PATIENTS</div>
+      <div style="font-family:'Playfair Display',serif;font-size:clamp(28px,3.4vw,38px);font-weight:600;line-height:1.15;margin-bottom:24px;">Everything for Your First Visit.</div>
+      <div style="font-size:15.5px;color:oklch(0.42 0.02 75);line-height:1.75;margin-bottom:28px;">We're in-network with most major PPO insurance plans and offer flexible financing through CareCredit, so quality care fits your budget.</div>
+      <a href="#visit" style="display:inline-block;background:oklch(0.28 0.05 155);color:oklch(0.97 0.015 75);padding:16px 32px;font-size:14px;letter-spacing:0.04em;text-decoration:none;" style-hover="background:oklch(0.20 0.045 155);">Book Your First Visit</a>
+    </div>
+    <div style="flex:2 1 480px;min-width:320px;">
+      
+        <div style="border-bottom:1px solid oklch(0.88 0.02 75);">
+          <button data-filter="" style="width:100%;background:none;border:none;text-align:left;padding:22px 0;display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-size:17px;font-family:'Playfair Display',serif;color:oklch(0.20 0.02 75);gap:16px;">
+            <span>Do you accept my insurance?</span>
+            <span style="font-size:20px;color:oklch(0.72 0.09 40);flex:none;">−</span>
+          </button>
+          <div data-faq-panel>
+            <div style="padding:0 0 24px;font-size:15px;color:oklch(0.42 0.02 75);line-height:1.7;max-width:560px;">We're in-network with most major PPO plans and happy to verify your benefits before your visit — just give us a call.</div>
+          </div>
+        </div>
+      
+        <div style="border-bottom:1px solid oklch(0.88 0.02 75);">
+          <button data-filter="" style="width:100%;background:none;border:none;text-align:left;padding:22px 0;display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-size:17px;font-family:'Playfair Display',serif;color:oklch(0.20 0.02 75);gap:16px;">
+            <span>What should I bring to my first appointment?</span>
+            <span style="font-size:20px;color:oklch(0.72 0.09 40);flex:none;">+</span>
+          </button>
+          <div data-faq-panel>
+            <div style="padding:0 0 24px;font-size:15px;color:oklch(0.42 0.02 75);line-height:1.7;max-width:560px;">A photo ID, your insurance card (if applicable), and a list of any current medications.</div>
+          </div>
+        </div>
+      
+        <div style="border-bottom:1px solid oklch(0.88 0.02 75);">
+          <button data-filter="" style="width:100%;background:none;border:none;text-align:left;padding:22px 0;display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-size:17px;font-family:'Playfair Display',serif;color:oklch(0.20 0.02 75);gap:16px;">
+            <span>Do you offer financing?</span>
+            <span style="font-size:20px;color:oklch(0.72 0.09 40);flex:none;">+</span>
+          </button>
+          <div data-faq-panel>
+            <div style="padding:0 0 24px;font-size:15px;color:oklch(0.42 0.02 75);line-height:1.7;max-width:560px;">Yes — we offer 0% interest plans through CareCredit as well as in-house payment plans.</div>
+          </div>
+        </div>
+      
+        <div style="border-bottom:1px solid oklch(0.88 0.02 75);">
+          <button data-filter="" style="width:100%;background:none;border:none;text-align:left;padding:22px 0;display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-size:17px;font-family:'Playfair Display',serif;color:oklch(0.20 0.02 75);gap:16px;">
+            <span>Is Brightline good for anxious patients?</span>
+            <span style="font-size:20px;color:oklch(0.72 0.09 40);flex:none;">+</span>
+          </button>
+          <div data-faq-panel>
+            <div style="padding:0 0 24px;font-size:15px;color:oklch(0.42 0.02 75);line-height:1.7;max-width:560px;">Absolutely. Our studio was designed specifically with nervous patients in mind, including sedation options and quiet private suites.</div>
+          </div>
+        </div>
+      
+        <div style="border-bottom:1px solid oklch(0.88 0.02 75);">
+          <button data-filter="" style="width:100%;background:none;border:none;text-align:left;padding:22px 0;display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-size:17px;font-family:'Playfair Display',serif;color:oklch(0.20 0.02 75);gap:16px;">
+            <span>How do I book same-day emergency care?</span>
+            <span style="font-size:20px;color:oklch(0.72 0.09 40);flex:none;">+</span>
+          </button>
+          <div data-faq-panel>
+            <div style="padding:0 0 24px;font-size:15px;color:oklch(0.42 0.02 75);line-height:1.7;max-width:560px;">Call our studio directly — we hold same-day slots every day for urgent needs.</div>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+
+  <!-- LOCATION -->
+  <div id="visit" style="background:oklch(0.995 0.008 75);border-top:1px solid oklch(0.88 0.02 75);border-bottom:1px solid oklch(0.88 0.02 75);">
+    <div style="max-width:1320px;margin:0 auto;padding:120px 6vw;display:flex;gap:64px;align-items:center;flex-wrap:wrap;">
+      <img src="/uploads/ChatGPT Image Jul 2, 2026, 03_47_48 PM.png" data-resource-id="mapImg" style="flex:1 1 420px;min-width:300px;height:420px;object-fit:cover;border:1px solid oklch(0.85 0.02 75);" alt="Location map of Brightline Dental Studio" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden';this.style.background='#12180F';">
+      <div style="flex:1 1 380px;min-width:300px;">
+        <div style="font-size:12px;letter-spacing:0.24em;color:oklch(0.45 0.02 75);margin-bottom:22px;">VISIT US</div>
+        <div style="font-family:'Playfair Display',serif;font-size:clamp(28px,3.4vw,38px);font-weight:600;line-height:1.15;margin-bottom:28px;">Find Your Way to Brightline.</div>
+        <div style="font-size:15.5px;color:oklch(0.42 0.02 75);line-height:1.9;margin-bottom:28px;">
+          482 Maple Avenue, Suite 200<br/>Riverside Heights<br/><br/>
+          Mon–Thu: 8am – 6pm<br/>
+          Fri: 8am – 4pm<br/>
+          Sat: 9am – 2pm<br/>
+          Sun: Closed
+        </div>
+        <div style="display:flex;gap:16px;flex-wrap:wrap;">
+          <a href="#" style="background:oklch(0.28 0.05 155);color:oklch(0.97 0.015 75);padding:15px 30px;font-size:13.5px;letter-spacing:0.04em;text-decoration:none;" style-hover="background:oklch(0.20 0.045 155);">Get Directions</a>
+          <a href="tel:+15553492100" style="border:1px solid oklch(0.20 0.02 75);color:oklch(0.20 0.02 75);padding:15px 30px;font-size:13.5px;letter-spacing:0.04em;text-decoration:none;" style-hover="background:oklch(0.20 0.02 75);color:oklch(0.97 0.015 75);">(555) 349-2100</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FINAL CTA -->
+  <div style="background:oklch(0.20 0.045 155);color:oklch(0.97 0.015 75);text-align:center;padding:110px 6vw;">
+    <div style="font-family:'Playfair Display',serif;font-size:clamp(30px,4vw,48px);font-weight:600;margin-bottom:32px;">Your Best Smile Starts Here.</div>
+    <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
+      <a href="#" style="background:oklch(0.72 0.09 40);color:oklch(0.20 0.045 155);padding:17px 36px;font-size:14px;letter-spacing:0.04em;text-decoration:none;" style-hover="background:oklch(0.78 0.09 40);">Book a Visit</a>
+      <a href="tel:+15553492100" style="border:1px solid oklch(0.97 0.015 75 / 0.5);color:oklch(0.97 0.015 75);padding:17px 36px;font-size:14px;letter-spacing:0.04em;text-decoration:none;" style-hover="background:oklch(0.97 0.015 75 / 0.1);">(555) 349-2100</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="background:oklch(0.97 0.015 75);padding:80px 6vw 32px;">
+    <div style="max-width:1320px;margin:0 auto;">
+      <div style="display:flex;gap:56px;flex-wrap:wrap;justify-content:space-between;padding-bottom:56px;border-bottom:1px solid oklch(0.88 0.02 75);">
+        <div style="flex:1 1 260px;min-width:240px;">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+            <div style="width:28px;height:28px;border:1.5px solid oklch(0.28 0.05 155);transform:rotate(45deg);flex:none;"></div>
+            <div style="font-family:'Playfair Display',serif;font-size:19px;font-weight:600;">Brightline</div>
+          </div>
+          <div style="font-size:14px;color:oklch(0.45 0.02 75);max-width:260px;line-height:1.7;">A private dental studio for modern smiles, in the heart of Riverside Heights.</div>
+        </div>
+        <div style="min-width:160px;">
+          <div style="font-size:12px;letter-spacing:0.12em;color:oklch(0.45 0.02 75);margin-bottom:20px;">EXPLORE</div>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <a href="#services" style="font-size:14.5px;color:oklch(0.25 0.02 75);text-decoration:none;">Services</a>
+            <a href="#studio" style="font-size:14.5px;color:oklch(0.25 0.02 75);text-decoration:none;">Studio</a>
+            <a href="#team" style="font-size:14.5px;color:oklch(0.25 0.02 75);text-decoration:none;">About</a>
+            <a href="#gallery" style="font-size:14.5px;color:oklch(0.25 0.02 75);text-decoration:none;">Smile Gallery</a>
+            <a href="#reviews" style="font-size:14.5px;color:oklch(0.25 0.02 75);text-decoration:none;">Reviews</a>
+          </div>
+        </div>
+        <div style="min-width:160px;">
+          <div style="font-size:12px;letter-spacing:0.12em;color:oklch(0.45 0.02 75);margin-bottom:20px;">SERVICES</div>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <div style="font-size:14.5px;color:oklch(0.25 0.02 75);">General & Preventive</div>
+            <div style="font-size:14.5px;color:oklch(0.25 0.02 75);">Cosmetic Dentistry</div>
+            <div style="font-size:14.5px;color:oklch(0.25 0.02 75);">Invisalign</div>
+            <div style="font-size:14.5px;color:oklch(0.25 0.02 75);">Implants</div>
+            <div style="font-size:14.5px;color:oklch(0.25 0.02 75);">Whitening</div>
+          </div>
+        </div>
+        <div style="min-width:220px;">
+          <div style="font-size:12px;letter-spacing:0.12em;color:oklch(0.45 0.02 75);margin-bottom:20px;">CONTACT</div>
+          <div style="display:flex;flex-direction:column;gap:12px;font-size:14.5px;color:oklch(0.25 0.02 75);">
+            <div>482 Maple Avenue, Suite 200<br/>Riverside Heights</div>
+            <div>(555) 349-2100</div>
+            <div><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="076f626b6b684765756e606f736b6e696263626973666b2964686a">[email&#160;protected]</a></div>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;padding-top:28px;gap:16px;flex-wrap:wrap;">
+        <div style="font-size:12.5px;color:oklch(0.5 0.02 75);">© 2026 Brightline Dental Studio. All rights reserved.</div>
+        <div style="display:flex;gap:20px;">
+          <a href="#" style="font-size:12.5px;color:oklch(0.5 0.02 75);text-decoration:none;">Privacy</a>
+          <a href="#" style="font-size:12.5px;color:oklch(0.5 0.02 75);text-decoration:none;">Terms</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
