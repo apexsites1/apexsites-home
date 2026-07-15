@@ -195,6 +195,48 @@
     if (!track) return; // most pages don't have one
   }
 
+  // ---- Onload promo popup --------------------------------------------------
+  // A single small popup (smaller than the viewport, so it visually reads as
+  // a popup and not a full takeover) that appears automatically once per page
+  // load. Closable via the × button, the "Maybe later" link, clicking outside
+  // the card, or Escape. No target url is embedded — it links out, since the
+  // linked page (comingsoon.apexsites.ai) blocks being framed.
+  function initOnloadPopup() {
+    var overlay = document.querySelector('[data-onload-popup]');
+    if (!overlay) return;
+    var backdrop = overlay.querySelector('[data-popup-backdrop]');
+    var shown = false;
+
+    function close() {
+      overlay.setAttribute('hidden', '');
+      document.body.style.overflow = '';
+    }
+    function open() {
+      if (shown) return;
+      shown = true;
+      overlay.removeAttribute('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    overlay.querySelectorAll('[data-popup-close]').forEach(function (b) {
+      b.addEventListener('click', close);
+    });
+    if (backdrop) {
+      backdrop.addEventListener('click', function (e) {
+        if (e.target === backdrop) close();
+      });
+    }
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !overlay.hasAttribute('hidden')) close();
+    });
+
+    // Fire after the page has finished loading (images etc.), with a short
+    // delay so it doesn't compete with the initial paint.
+    function schedule() { window.setTimeout(open, 800); }
+    if (document.readyState === 'complete') schedule();
+    else window.addEventListener('load', schedule);
+  }
+
   ready(function () {
     try { initNav(); } catch (e) {}
     try { initFaq(); } catch (e) {}
@@ -204,5 +246,6 @@
     try { initTracking(); } catch (e) {}
     try { initDemo(); } catch (e) {}
     try { initCarousel(); } catch (e) {}
+    try { initOnloadPopup(); } catch (e) {}
   });
 })();
