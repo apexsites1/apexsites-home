@@ -3,7 +3,8 @@ cd %~dp0
 git init
 git config user.email "jamesfw@gmail.com"
 git config user.name "James"
-git remote add origin https://ghp_YtbRye59nr7kng1eR9Hoko4ETjEXFm0VMHf6@github.com/apexsites1/apexsites-home.git
+set /p GH_TOKEN="Enter your GitHub personal access token: "
+git remote add origin https://%GH_TOKEN%@github.com/apexsites1/apexsites-home.git
 git add -A
 git commit -m "Deploy ApexSites homepage production files"
 git branch -M main
@@ -13,7 +14,8 @@ echo Push completed!
 pause@echo off
 REM ApexSites Website Deployment Script
 REM This script pushes the website files from Desktop\apexsites-home to GitHub
-REM Fresh token generated: July 6, 2026
+REM Token is entered at runtime (not stored in this file) - see STEP 6 below.
+REM Any token previously hardcoded here has been revoked; never commit a live token to this file.
 
 setlocal enabledelayedexpansion
 
@@ -65,7 +67,8 @@ echo [SUCCESS] Old remote removed
 
 echo.
 echo [STEP 6] Adding new remote origin...
-git remote add origin https://ghp_YtbRye59nr7kng1eR9Hoko4ETjEXFm0VMHf6@github.com/apexsites1/apexsites-home.git
+set /p GH_TOKEN="Enter your GitHub personal access token: "
+git remote add origin https://%GH_TOKEN%@github.com/apexsites1/apexsites-home.git
 if !errorlevel! neq 0 (
     echo [ERROR] Failed to add remote!
     pause
