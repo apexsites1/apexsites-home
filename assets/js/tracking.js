@@ -21,7 +21,7 @@
   // ---- Replace these before launch (or manage via GTM) --------------------
   var IDS = {
     GTM:        '__GTM_CONTAINER_ID__',      // e.g. GTM-XXXXXXX
-    GA4:        '__GA4_MEASUREMENT_ID__',    // e.g. G-XXXXXXXXXX
+    GA4:        'G-BJS8R7XFSK',    // e.g. G-XXXXXXXXXX
     GOOGLE_ADS: '__GOOGLE_ADS_ID__',         // e.g. AW-XXXXXXXXX
     META_PIXEL: '__META_PIXEL_ID__',
     TIKTOK_PIXEL: '__TIKTOK_PIXEL_ID__',
